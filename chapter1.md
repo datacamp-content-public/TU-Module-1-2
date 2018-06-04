@@ -142,7 +142,7 @@ assertEqual({'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York'
 `@sct`
 ```{python}
 test_object('cities_set',
-            undefined_msg = "Make sure to define `x`!",
+            undefined_msg = "Make sure to define `x`!")
 ```
 
 
