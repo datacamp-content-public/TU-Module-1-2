@@ -94,3 +94,52 @@ key: bf8f4e6ea3
 
 
 
+
+
+---
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+
+xp: 100
+
+key: 0d2117c6cb
+
+
+
+```
+
+Test
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+__ = "blank"
+def assertEqual(x,y):
+    if x == y:
+        pass
+    else:
+        message = str(x) + ' is not ' + str(y)
+        raise AssertionError(message)  
+```
+`@sample_code`
+```{python}
+cities_set = {'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York', 'Rotterdam'}
+assertEqual(__, cities_set)
+```
+`@solution`
+```{python}
+cities_set = {'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York', 'Rotterdam'}
+assertEqual({'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York', 'Rotterdam'}, cities_set)
+
+```
+
+
+
+
