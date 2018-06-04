@@ -139,7 +139,10 @@ cities_set = {'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York
 assertEqual({'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York', 'Rotterdam'}, cities_set)
 
 ```
-
+`@sct`
+```{python}
+test_error('123')
+```
 
 
 
