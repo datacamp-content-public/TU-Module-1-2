@@ -55,7 +55,14 @@ five_primes = [2, 3, 5, 7, 11]
 ```
 `@sct`
 ```{python}
-[2, 3, 5, 7, 11]
+`@sct`
+```{r}
+test_error()
+test_object("x",
+            undefined_msg = "Make sure to define `x`!",
+            incorrect_msg = "Have you correctly assigned 5 to `x`!")
+success_msg("Awesome! It's considered good style to write spaces either side of the assignment arrow.")
+```
 ```
 
 
