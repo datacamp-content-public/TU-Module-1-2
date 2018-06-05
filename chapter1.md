@@ -49,7 +49,10 @@ __ = "change \"__\" such that you get the right output"
 five_primes = [__] 
 print(five_primes)
 ```
-
+`@solution`
+```{python}
+five_primes = [2, 3, 5, 7, 11] 
+```
 `@sct`
 ```{python}
 Ex().has_output(r"[2, 3, 5, 7, 11]")
