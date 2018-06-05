@@ -41,8 +41,6 @@ Note that again, line 2 prints the list. There is no special syntax for printing
 `@pre_exercise_code`
 ```{python}
 __ = "change \"__\" such that you get the right output"
-
-
 ```
 `@sample_code`
 ```{python}
