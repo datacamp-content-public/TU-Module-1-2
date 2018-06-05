@@ -55,14 +55,8 @@ five_primes = [2, 3, 5, 7, 11]
 ```
 `@sct`
 ```{python}
-`@sct`
-```{r}
-test_error()
-test_object("x",
-            undefined_msg = "Make sure to define `x`!",
-            incorrect_msg = "Have you correctly assigned 5 to `x`!")
-success_msg("Awesome! It's considered good style to write spaces either side of the assignment arrow.")
-```
+Ex().has_output(r"[2, 3, 5, 7, 11]")
+success_msg("Well done!")
 ```
 
 
@@ -139,11 +133,7 @@ cities_set = {'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York
 assertEqual({'New York', 'Boston', 'Seoul', 'Rotterdam', 'Cape Town', 'New York', 'Rotterdam'}, cities_set)
 
 ```
-`@sct`
-```{python}
-test_object('cities_set',
-            undefined_msg = "Make sure to define `x`!")
-```
+
 
 
 
