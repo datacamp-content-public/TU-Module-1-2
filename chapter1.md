@@ -50,7 +50,7 @@ print(five_primes)
 
 `@sct`
 ```{python}
-Ex().has_output(r"[2, 3, 5, 7, 11]")
+Ex().has_output("[2, 3, 5, 7, 11]", pattern = False)
 success_msg("Well done!")
 ```
 
